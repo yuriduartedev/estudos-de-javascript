@@ -15,6 +15,6 @@ comparaComThisComArrow(global)
 comparaComThisComArrow(module.exports)
 comparaComThisComArrow(this)
 
-comparaComThisComArrow = comparaComThisComArrow.bind(obj)
-comparaComThisComArrow(obj)
+comparaComThisComArrow = comparaComThisComArrow.bind(obj) 
+comparaComThisComArrow(obj) 
 comparaComThisComArrow(module.exports)
