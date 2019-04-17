@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <title>Unidades #02</title>
     <style>
-        /* ... */
+        .fora {
+            position: relative;
+            background-color: orange;
+            width: 400px;
+            height: 400px;
+            padding: 50px;
+        }
+        .dentro {
+            background-color: mediumvioletred;
+            height: 100px;
+            width: 100%;
+            position: static;   /* Ocupa o espaço dedicado ao conteúdo! */
+            position: relative; /* Ocupa o espaço dedicado ao conteúdo! */
+            position: absolute; /* Ocupa o espaço dedicado ao conteúdo + o padding. */
+            position: fixed; /* Ocupa o espaço baseado na viewport! */
+        }
     </style>
 </head>
 <body>

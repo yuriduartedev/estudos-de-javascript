@@ -11,22 +11,81 @@
             margin: 0;
         }
 
+        html {
+            font-size: 28px;
+        }
+
         body {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+
+        div {
+            font-size: 50px;
+        }
+
+        p {
+            /* ==== FONTES ==== */
+            /* Valores padrões */
+            font-size: 1em;
+            font-size: 100%;
+            font-size: 16px;
+            font-size: 12pt;
+
+            /* Unidades absolutas */
+            font-size: 100px; /* O tamanho do pixel é relativo de acordo com a densidade da tela do dispositivo. */
+            font-size: 72pt; /* Pontos */
+            font-size: 1in; /* Polegadas */
+
+            /* Unidades relativas */
+            font-size: 2.2em;
+            font-size: 2.2rem;
+            font-size: 50vh;
+            font-size: 10vw;
+
+            /* Famílias de fontes */
+            font-family: monospace;
+            font-family: Georgia, serif;
+            font-family: Verdana, sans-serif;
+            font-family: cursive;
+
+            /* Propriedades de fontes */
+            font-weight: 100; /* Peso da fonte */
+            font-style: italic;
+            text-transform: uppercase;            
+            word-spacing: 10px;
+            letter-spacing: 20px;
+            line-height: 2.5em;
+            text-align: center;
+        }
+
+        .botao {
+            font-size: 28px;
+            text-decoration: none;
+            padding: 10px 30px;
+            border-radius: 25px;
+        }
+        .destaque {
+            color: #fff;
+            background-color: tomato;
+            box-shadow: 2px 2px 1px 1px #000;
+        }        
+        .destaque:active {
+            box-shadow: none;
+            transition: .2s;
+        }   
     </style>
 </head>
 
 <body>
     <div>
         <p>
-            Que texto
-            <br>legal!!!
+            Teste de
+            <br>texto!!!
         </p>
     </div>
-    <a href="http://google.com" class="botao destaque">Google</a>
+    <a href="#" class="botao destaque">Google</a>
 </body>
 
 </html>
